@@ -18,5 +18,8 @@ namespace MathHelpers
             X = x;
             Y = y;
         }
+
+        public double DistanceTo(Vector2d other) =>
+            Math.Sqrt(Math.Pow(this.X - other.X, 2) + Math.Pow(this.Y - other.Y, 2));
     }
 }
