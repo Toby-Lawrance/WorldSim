@@ -3,7 +3,7 @@ using System.Numerics;
 
 namespace MathHelpers
 {
-    public class Vector2d
+    public partial class Vector2d
     {
         public double X, Y;
 
@@ -18,8 +18,5 @@ namespace MathHelpers
             X = x;
             Y = y;
         }
-
-        public double DistanceTo(Vector2d other) =>
-            Math.Sqrt(Math.Pow(this.X - other.X, 2) + Math.Pow(this.Y - other.Y, 2));
     }
 }

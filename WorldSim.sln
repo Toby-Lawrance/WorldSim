@@ -4,6 +4,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathHelpers", "MathHelpers\MathHelpers.csproj", "{35EE5141-3E2C-4D5B-84C7-E74425A1B659}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HalfEdgeRepresentation", "HalfEdgeRepresentation\HalfEdgeRepresentation.csproj", "{24071D09-94E1-47CD-9DBC-5BF1FA87C7AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriangleRepresentation", "TriangleRepresentation\TriangleRepresentation.csproj", "{14D1CA89-9918-492A-880F-7D7A21156956}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{35EE5141-3E2C-4D5B-84C7-E74425A1B659}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35EE5141-3E2C-4D5B-84C7-E74425A1B659}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35EE5141-3E2C-4D5B-84C7-E74425A1B659}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24071D09-94E1-47CD-9DBC-5BF1FA87C7AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24071D09-94E1-47CD-9DBC-5BF1FA87C7AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24071D09-94E1-47CD-9DBC-5BF1FA87C7AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24071D09-94E1-47CD-9DBC-5BF1FA87C7AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14D1CA89-9918-492A-880F-7D7A21156956}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14D1CA89-9918-492A-880F-7D7A21156956}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14D1CA89-9918-492A-880F-7D7A21156956}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14D1CA89-9918-492A-880F-7D7A21156956}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

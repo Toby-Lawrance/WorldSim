@@ -6,7 +6,6 @@
 
     <ItemGroup>
       <ProjectReference Include="..\MathHelpers\MathHelpers.csproj" />
-      <ProjectReference Include="..\TriangleRepresentation\TriangleRepresentation.csproj" />
     </ItemGroup>
 
 </Project>
